@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: echo-sample
+  labels:
+    field.cattle.io/projectId: p-jshk8
+    istio-injection: enabled
