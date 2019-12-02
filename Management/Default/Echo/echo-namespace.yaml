@@ -5,4 +5,4 @@ metadata:
   labels:
     istio-injection: enabled
   annotations:
-    field.cattle.io/projectId: p-jshk8
+    field.cattle.io/projectId: c-lq7rq:p-jshk8
