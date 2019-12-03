@@ -1,0 +1,11 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: echo-leaf-1
+spec:
+  hosts:
+  - echo-leaf-1
+  http:
+  - route:
+    - destination:
+        host: echo-leaf-1
